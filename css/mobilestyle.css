@@ -1,0 +1,338 @@
+@media only screen and (max-width: 768px) {
+    
+* {
+	padding: 0;
+	margin: 0;
+	border: 0;
+	outline: 0;
+}
+
+    html, body {
+    	background-color: rgb(120,199,205);/*FAFAFA*/
+
+    	height: 100%;
+    	width: 100%;
+    }
+	
+
+	p {
+		font-family: "thesis";
+		font-size: 16px;
+		line-height: 20px;
+		color: rgb(24,24,24);
+		word-spacing: -1px;
+		
+		font-variant-ligatures: common-ligatures;
+		-webkit-font-variant-ligatures: common-ligatures;
+		-moz-font-variant-ligatures: common-ligatures;
+	}
+
+    h1 {
+    	font-family: "thesis";
+		font-size: 50px;
+		color: rgb(240,240,240);
+	}
+
+	h2 {
+		font-family: "thesis";
+		font-size: 18px;
+		line-height: 21px;
+		color: rgb(24,24,24);
+
+		font-variant-ligatures: common-ligatures;
+		-webkit-font-variant-ligatures: common-ligatures;
+		-moz-font-variant-ligatures: common-ligatures;	
+	}
+
+	h2 br{
+		display: none;
+	}
+
+		h3 {
+		font-family: "visual poetry";
+		font-size: 18px;
+		line-height: 19px;
+		color: rgb(24,24,24);
+
+		font-variant-ligatures: common-ligatures;
+		-webkit-font-variant-ligatures: common-ligatures;
+		-moz-font-variant-ligatures: common-ligatures;	
+	}
+
+	h4 {
+		font-family: "thesis";
+		font-size: 15px;
+		line-height: 15px;
+		color: rgb(24,24,24);
+
+		font-variant-ligatures: common-ligatures;
+		-webkit-font-variant-ligatures: common-ligatures;
+		-moz-font-variant-ligatures: common-ligatures;	
+
+}
+
+	li {
+		display: none;
+		list-style-type: none;	
+	}
+
+	#sentence {
+		position: relative;
+
+		margin-top: 1%;
+		margin-left: 5%;
+}
+
+	#sentence2 {
+		position: relative;
+
+		top: 95%;
+		margin-left: 20%;
+}
+
+	#header1 { /* TEMPORAL */
+		display: block;
+	    position: absolute;
+		margin-top: -50%;
+		margin-left: 3%;
+
+		transform: rotate(-7deg); 
+		-webkit-transform: rotate(-7deg); 
+	    -moz-transform: rotate(-7deg); 
+	}
+
+	#header2 { /* RANDOM */
+		display: block;
+	    position: absolute;
+		margin-top: 80%;
+		margin-left: 25%;
+
+		transform: rotate(-7deg); 
+		-webkit-transform: rotate(-27deg); 
+	    -moz-transform: rotate(-27deg); 
+	}
+
+	#header3 { /* INTERACTIVE */
+		display: block;
+	    position: absolute;
+		margin-top: 10%;
+		margin-left: 20%;
+
+		transform: rotate(-75deg); 
+		-webkit-transform: rotate(-75deg); 
+	    -moz-transform: rotate(-75deg); 
+	}
+
+	#header4 { /* FLUID */
+		display: block;
+	    position: absolute;
+		margin-top: -27%;
+		margin-left: 15%;
+
+		transform: rotate(-7deg); 
+		-webkit-transform: rotate(12deg); 
+	    -moz-transform: rotate(12deg); 
+	}
+
+	#header5 { /* RESPONSIVE */
+		display: block;
+	    position: absolute;
+		margin-top: 32%;
+		margin-left: -25%;
+
+		transform: rotate(77deg); 
+		-webkit-transform: rotate(77deg); 
+	    -moz-transform: rotate(77deg); 
+	}
+
+	#menu {
+		position: relative;
+		display: block;
+		z-index: 1;
+
+		top: 10%;
+		margin-left: 2%;
+		padding-bottom: 1%;
+		width: 90%;
+	}
+
+	#chaptertitle {
+		position: relative;
+		margin-left: 2%;
+		width: 100%;
+
+		color: rgb(24,24,24);
+	}
+
+	#options {
+		position: fixed;
+/*		background-color: rgb(120,199,205);
+*/		width: 100%;
+
+		left: 0%;
+		bottom: 0%;
+		height: 10%;
+		padding-top: 2%;
+		padding-left: 24%;
+	}
+
+	#fillerbottom {
+		height: 15%;
+	}
+
+	.switch-wrapper {
+		position: fixed;
+	}
+
+	.size-regulator {
+		font-family: "thesis";
+		font-size: 10px;
+		color: #6A0888;
+
+		z-index: 900;
+
+		margin-top: 30px;
+		margin-left: 47px;
+	}
+
+	.chaptertitle1 {
+		display: none;
+		position: absolute;
+	}
+
+	.chaptertitle2 {
+		display: none;
+		position: absolute;
+	}
+
+	.switch-button-label {
+	    float: left;
+
+	    font-family: "thesis";
+	    font-size: 10px;
+	    cursor: pointer;
+	}
+
+	.drop {
+		display: none;
+
+		font-family: "thesis";
+		letter-spacing: 1px;
+		font-size: 12px;
+		line-height: 14px;
+		color: rgb(120,199,205);/*2ECCFA*/
+
+		border: 1px solid rgb(24,24,24);
+
+		margin-top: 6%;
+		margin-bottom: 2%;
+		margin-left: 5%;
+		padding: 2%;
+	}
+
+	a:hover + .drop {
+		display: block;
+
+		width: 80%;
+		height: auto;
+	}
+
+	.text {
+		width: 100%;
+		position: relative;
+	}
+
+	.text .thesis {
+		position: relative;
+
+		padding-top:2%;
+		padding-bottom: 5%;
+		padding-left: 5%;
+
+		
+		width: 90%;
+	}
+
+	.images {
+		clear: both;
+		position: relative;
+
+		width: 90%;
+
+		padding-top: 5%;
+		padding-bottom: 25%;
+	}
+
+	img {
+		width: 100%;
+		height: auto;
+
+		border-style: solid ;
+		border-width: 8px;
+		border-color: rgb(248,248,248);
+
+	}
+
+	.image-text {
+		display: inline-block;
+		font-family: "thesis";
+		font-size: 12px;
+		line-height: 15px;
+		color: rgb(248,248,248);
+
+		position: absolute;
+		margin-top: 0%;
+		width: 100%;
+	}
+
+
+/*--------------------------|| TEST ZONE ||------------------------*/
+
+		.wrapper {
+			display: none;
+		    width: 100%;
+		}
+
+		.animator {
+			display: none;
+		    width: 90%;
+		    padding-top: 5%;
+		    position: relative;
+		}
+
+		.TEMPORAL {
+			display: none;
+		    position: absolute;
+		    left: -150%;
+		}
+
+		.RANDOM {
+			display: none;
+		    position: absolute;
+		    left: -150%;
+		}
+
+		.INTERACTIVE {
+			display: none;
+		    position: absolute;
+		    left: -150%;
+		}
+
+		.FLUID {
+			display: none;
+		    position: absolute;
+		    left: -150%;
+		}
+
+		.RESPONSIVE {
+			display: none;
+		    position: absolute;
+		    left: -150%;
+		}
+
+/*-----------------------|| TEST ZONE ||--------------------------*/
+
+
+
+
+} /* LAST TAG TO CLOSE @MEDIA ONLY */
