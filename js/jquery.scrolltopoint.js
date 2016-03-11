@@ -9,7 +9,7 @@ $(window).scroll(function(){
 
 	    $(".chaptertitle1").css("top",Math.max(128, 970-$(this).scrollTop()));
 
-	    $(".chaptertitle2").css("top",Math.max(154, 2097-$(this).scrollTop()));
+	    $(".chaptertitle2").css("top",Math.max(154, 2147-$(this).scrollTop()));
 
 	    $(".chaptertitle3").css("top",Math.max(232, 7952-$(this).scrollTop()));
 
