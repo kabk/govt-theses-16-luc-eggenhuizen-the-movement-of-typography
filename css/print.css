@@ -1,0 +1,407 @@
+@page {
+		size: A4;
+		margin: 12mm;
+	}
+
+@media print {
+
+	::selection {display: none;}
+
+	p {
+		font-family: "thesis";
+		font-size: 16pt;
+		line-height: 19pt;
+		word-spacing: -1px;
+		
+		font-variant-ligatures: common-ligatures;
+		-webkit-font-variant-ligatures: common-ligatures;
+		-moz-font-variant-ligatures: common-ligatures;
+	}
+
+	h1 {
+		font-family: "thesis";
+		font-size: 130pt;
+		line-height: 160pt;
+		color: black;
+	}
+
+	h2 {
+		font-family: "thesis";
+		font-size: 18pt;
+		line-height: 19pt;
+
+		page-break-before: always;
+
+		font-variant-ligatures: common-ligatures;
+		-webkit-font-variant-ligatures: common-ligatures;
+		-moz-font-variant-ligatures: common-ligatures;	
+	}
+
+	h3 {
+		font-family: "visual poetry";
+		font-size: 18pt;
+		line-height: 19pt;
+
+		font-variant-ligatures: common-ligatures;
+		-webkit-font-variant-ligatures: common-ligatures;
+		-moz-font-variant-ligatures: common-ligatures;	
+	}
+
+	h4 {
+		font-family: "thesis";
+		font-size: 16pt;
+		line-height: 18pt;
+
+		font-variant-ligatures: common-ligatures;
+		-webkit-font-variant-ligatures: common-ligatures;
+		-moz-font-variant-ligatures: common-ligatures;	
+
+	}
+
+	#header {
+		display: block;
+		position: relative;
+		text-align: center;
+	}
+
+
+	#header1 { /* TEMPORAL */
+		display: block;
+	    position: absolute;
+		margin-top: 20px;
+		margin-left: 0px;
+
+		transform: rotate(-7deg); 
+		-webkit-transform: rotate(-7deg); 
+	    -moz-transform: rotate(-7deg); 
+	}
+
+	#header2 { /* RANDOM */
+		display: block;
+	    position: absolute;
+		margin-top: 1250px;
+		margin-left: 120px;
+
+		transform: rotate(-7deg); 
+		-webkit-transform: rotate(-7deg); 
+	    -moz-transform: rotate(-7deg); 
+	}
+
+	#header3 { /* INTERACTIVE */
+		display: block;
+	    position: absolute;
+		margin-top: 600px;
+		margin-left: 120px;
+
+		transform: rotate(-65deg); 
+		-webkit-transform: rotate(-65deg); 
+	    -moz-transform: rotate(-65deg); 
+	}
+
+	#header4 { /* FLUID */
+		display: block;
+	    position: absolute;
+		margin-top: 250px;
+		margin-left: 210px;
+
+		transform: rotate(-7deg); 
+		-webkit-transform: rotate(12deg); 
+	    -moz-transform: rotate(12deg); 
+	}
+
+	#header5 { /* RESPONSIVE */
+		display: block;
+	    position: absolute;
+		margin-top: 670px;
+		margin-left: -340px;
+
+		transform: rotate(77deg); 
+		-webkit-transform: rotate(77deg); 
+	    -moz-transform: rotate(77deg); 
+	}
+
+	#sentence {
+		position: absolute;
+
+		margin-top: 1pt;
+		margin-left: 1pt;
+	}
+
+	#sentence2 {
+		position: absolute;
+
+		top: 1500px;
+		margin-left: 390px;
+	}
+
+	#menu {display: none;}
+	#chaptertitle {display: none;}
+	#options {display: none;}
+	#ligature-switch {display: none;}
+	#switch-button-background {display: none;}
+	#switch-button-button {display: none;}
+
+
+	#filler {
+		height: 1501px;
+	}
+
+		#printmenu {
+			display: block;
+			position: relative;
+			width: 310px;
+			margin-left: 45px;
+		}
+
+		.printmenu0 {
+			position: absolute;
+			top: 1566px;
+			width: 310px;
+		}
+
+		.printmenu11 {
+			position: absolute;
+			top: 2660px;
+			width: 310px;
+		}
+
+		.printmenu12 {
+			position: absolute;
+			top: 7310px;
+			width: 310px;
+		}
+
+		.printmenu13 {
+			position: absolute;
+			top: 12816px;
+			width: 310px;
+		}
+
+		.printmenu21 {
+			position: absolute;
+			top: 16162px;
+			width: 310px;
+		}
+
+		.printmenu22 {
+			position: absolute;
+			top: 19614px;
+			width: 310px;
+		}
+
+		.printmenu23 {
+			position: absolute;
+			top: 23800px;
+			width: 310px;
+		}
+
+		.printmenu31 {
+			position: absolute;
+			top: 28246px;
+			width: 310px;
+		}
+
+		.printmenu32 {
+			position: absolute;
+			top: 30152px;
+			width: 310px;
+		}
+
+		.printmenu4 {
+			position: absolute;
+			top: 34488px;
+			width: 310px;
+		}
+
+		.printmenu5 {
+			position: absolute;
+			top: 35152px;
+			width: 310px;
+		}
+
+		.printmenu6 {
+			position: absolute;
+			top: 35600px;
+			width: 310px;
+		}
+
+.wrapper {display: none;}
+.animator {display: none;}
+.TEMPORAL {display: none;}
+.RANDOM {display: none;}
+.INTERACTIVE {display: none;}
+.FLUID {display: none;}
+.RESPONSIVE {display: none;}
+
+
+
+	.switch-wrapper {display: none;}
+
+	.switch-button-label {display: none;}
+
+	.drop {
+		display: none;
+
+		font-family: "thesis";
+		letter-spacing: 1px;
+		font-size: 12px;
+		line-height: 14px;
+		color: rgb(121,190,191);
+		background-color: rgb(248,248,248);
+		text-align: left !important;
+
+
+		border: 1px solid rgb(24,24,24);
+
+		margin-top: 6px;
+		margin-bottom: 2px;
+		margin-left: 20px;
+		padding: 6px;
+	}
+
+	a:hover + .drop {
+		display: block;
+
+		height: auto !important;
+		width: 40px;
+	}
+
+	u {
+		text-decoration: none;
+		border-bottom: 2px solid black;
+
+	}
+
+	li {
+		list-style-type: none;
+	}
+
+	.size-regulator {
+		display: none;
+	}
+
+	.chaptertitle1 {display: none;}
+	.chaptertitle2 {display: none;}
+	.chaptertitle3 {display: none;}
+	.chaptertitle4 {display: none;}
+	.chaptertitle5 {display: none;}
+	.chaptertitle6 {display: none;}
+	.chaptertitle7 {display: none;}
+	.chaptertitle8 {display: none;}
+	.chaptertitle9 {display: none;}
+	.chaptertitle10 {display: none;}
+	.chaptertitle11 {display: none;}
+	.chaptertitle12 {display: none;}
+
+	.text {
+		position: relative;
+		width: 600px;
+	}
+
+	.text .thesis {
+		position: relative;
+		padding-left: 360px;
+
+		padding-top: 20px;
+		padding-bottom: 50px;
+		
+		width: 600px;	
+	}
+
+	.text .colophon {
+		position: relative;
+		padding-left: 390px;
+
+		padding-top: 20px;
+		padding-bottom: 50px;
+		
+		width: 200px;	
+	}
+
+	.text .bibliography {
+		position: relative;
+		padding-left: 360px;
+
+		padding-top: 20px;
+		padding-bottom: 50px;
+		
+		width: 600px;
+
+   		column-count: 2;
+   		column-width: 290px;
+	}
+
+	.text .centered {
+		position: relative;
+		padding-left: 360px;
+		text-align: center;
+
+		padding-top: 0px;
+		padding-bottom: 30px;
+		
+		width: 600px;	
+	}
+
+	.text .example {
+		text-align: center;
+		
+		position: relative;
+		padding-top: 0px;
+		padding-bottom: 30px;
+	}
+
+
+	.images {
+		position: relative;
+
+		margin-left: 3px;
+		width: 400px;
+
+		padding-top: 2px;
+		padding-bottom: 2px;
+	}
+
+	img {
+		width: 200px;
+		height: auto;
+		margin-top: 20px;
+		margin-left: 30px;
+		margin-bottom: 20px;
+
+		border-style: solid ;
+		border-width: 10px;
+		border-color: rgb(24,24,24);
+
+		filter: grayscale(1);
+		-webkit-filter: grayscale(1);
+		-moz-filter: grayscale(1);
+		-o-filter: grayscale(1);
+		-ms-filter: grayscale(1);
+
+	}
+
+	img:hover {
+		filter: grayscale(0);
+		-webkit-filter: grayscale(0);
+		-moz-filter: grayscale(0);
+		-o-filter: grayscale(0);
+		-ms-filter: grayscale(0);
+	}
+
+	.image-text {
+		font-family: "thesis";
+		font-size: 14px;
+		line-height: 17px;
+		letter-spacing: 1px;
+		word-spacing: -1px;
+
+		position: absolute;
+
+		padding-top: 20px;
+		margin-left: 30px;
+		padding-bottom: 20px;
+
+		width: 200px;
+	}
+
+} /* HEKKENSLUITER */

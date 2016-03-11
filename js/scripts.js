@@ -1,3 +1,8 @@
+
+		function onClick() {
+    	window.print();
+	}
+
   $(document).ready(function() { 
 
 
@@ -64,6 +69,7 @@
 /*---------------scroll and appear menu-------------------------------*/
 
 $(document).scroll(function () {
+
     var y = $(this).scrollTop();
     if (y > 700) {
         $('#menu').fadeIn(300);
