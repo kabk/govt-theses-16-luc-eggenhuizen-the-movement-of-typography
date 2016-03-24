@@ -8,8 +8,6 @@
     font-family: "visual poetry";
     src: url('fonts/visualpoetry-Regular.otf');
     src: url('fonts/visualpoetry-Regular.otf') format('embedded-opentype'),
-/*    url('../Avunea/fonts/AvenirNext-UltraLight.ttf') format('truetype'),
-    url('../Avunea/fonts/AvenirNext-UltraLight.woff') format('woff');*/
 }
 
 * {
