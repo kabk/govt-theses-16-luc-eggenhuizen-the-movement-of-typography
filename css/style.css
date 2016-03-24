@@ -2,12 +2,18 @@
     font-family: "thesis";
     src: url('../fonts/thesis-Regular.otf');
     src: url('../fonts/thesis-Regular.otf') format('embedded-opentype');
+    src: url('../fonts/thesis-Regular.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/thesis-Regular.ttf') format('truetype'),
+    url('../fonts/thesis-Regular.woff') format('woff');
 }
 
 @font-face {
     font-family: "visual poetry";
     src: url('../fonts/visualpoetry-Regular.otf');
     src: url('../fonts/visualpoetry-Regular.otf') format('embedded-opentype');
+    src: url('../fonts/visualpoetry-Regular.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/visualpoetry-Regular.ttf') format('truetype'),
+    url('../fonts/visualpoetry-Regular.woff') format('woff');
 }
 
 * {
