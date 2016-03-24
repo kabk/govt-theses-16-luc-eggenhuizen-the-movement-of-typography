@@ -1,13 +1,13 @@
 @font-face {
     font-family: "thesis";
     src: url('fonts/thesis-Regular.otf');
-    src: url('fonts/thesis-Regular.otf') format('embedded-opentype'),
+    src: url('fonts/thesis-Regular.otf') format('embedded-opentype');
 }
 
 @font-face {
     font-family: "visual poetry";
     src: url('fonts/visualpoetry-Regular.otf');
-    src: url('fonts/visualpoetry-Regular.otf') format('embedded-opentype'),
+    src: url('fonts/visualpoetry-Regular.otf') format('embedded-opentype');
 }
 
 * {
