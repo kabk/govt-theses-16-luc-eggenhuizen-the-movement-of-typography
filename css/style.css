@@ -1,6 +1,6 @@
 @font-face {
     font-family: "thesis";
-    src: url('fonts/thesis-Regular.otf');
+    src: url('fonts/thesis-Regular.otf') format('embedded-opentype');
 /*    src: url('../Avunea/fonts/AvenirNext-UltraLight.eot?#iefix') format('embedded-opentype'),
     url('../Avunea/fonts/AvenirNext-UltraLight.ttf') format('truetype'),
     url('../Avunea/fonts/AvenirNext-UltraLight.woff') format('woff');*/
@@ -8,7 +8,7 @@
 
 @font-face {
     font-family: "visual poetry";
-    src: url('fonts/visualpoetry-Regular.otf');
+    src: url('fonts/visualpoetry-Regular.otf') format('embedded-opentype');
 /*    src: url('../Avunea/fonts/AvenirNext-UltraLight.eot?#iefix') format('embedded-opentype'),
     url('../Avunea/fonts/AvenirNext-UltraLight.ttf') format('truetype'),
     url('../Avunea/fonts/AvenirNext-UltraLight.woff') format('woff');*/
