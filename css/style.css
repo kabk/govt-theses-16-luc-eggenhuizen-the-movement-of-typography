@@ -1,3 +1,11 @@
+@font-face {
+    font-family: "thesis";
+    src: url('fonts/thesis-Regular.otf');
+/*    src: url('../Avunea/fonts/AvenirNext-UltraLight.eot?#iefix') format('embedded-opentype'),
+    url('../Avunea/fonts/AvenirNext-UltraLight.ttf') format('truetype'),
+    url('../Avunea/fonts/AvenirNext-UltraLight.woff') format('woff');*/
+}
+
 * {
 	padding: 0;
 	margin: 0;
